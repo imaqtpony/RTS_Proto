@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 45e648b8d9a20564f90592f03b9958bf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_onFetchTileEvnt: {fileID: 11400000, guid: 7f14a8aba4128f54580281f1380a31d3, type: 2}
+  - m_onReturnTile: {fileID: 11400000, guid: b2ec06e1f8e669942927a23796479bc1, type: 2}
+  - m_onFetchFromIndex: {fileID: 11400000, guid: 86f0c0e82d324cd4781fb4cb76a03e0a, type: 2}
+  - m_onMoveUnit: {fileID: 11400000, guid: 6af89080e82354248906e9083fa4afb9, type: 2}
+  - m_rend: {instanceID: 0}
+  - m_shaderOutline: {fileID: 4800000, guid: 3307147a23447914595b340b7bc10a08, type: 3}
+  - m_shaderEmpty: {fileID: 4800000, guid: 07c22a48992c21d4abb915ee8106cd8d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

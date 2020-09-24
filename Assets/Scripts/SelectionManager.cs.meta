@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1e367666706c6bc4184f3cf22c917dd5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_onFetchTileEvnt: {fileID: 11400000, guid: 7f14a8aba4128f54580281f1380a31d3, type: 2}
+  - m_onMoveUnit: {fileID: 11400000, guid: 6af89080e82354248906e9083fa4afb9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

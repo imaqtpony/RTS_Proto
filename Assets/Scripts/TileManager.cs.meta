@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 52ac686746e446e49abeecb32f114b7e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_sampleTile: {fileID: 1747011453432641108, guid: 7844528fe63d4124d851e689e91528a1, type: 3}
+  - m_onFetchTileEvnt: {fileID: 11400000, guid: 7f14a8aba4128f54580281f1380a31d3, type: 2}
+  - m_onReturnTile: {fileID: 11400000, guid: b2ec06e1f8e669942927a23796479bc1, type: 2}
+  - m_onFetchFromIndex: {fileID: 11400000, guid: 86f0c0e82d324cd4781fb4cb76a03e0a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
