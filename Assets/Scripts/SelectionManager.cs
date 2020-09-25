@@ -24,6 +24,7 @@ public class SelectionManager : MonoBehaviour
 
     private int m_nbUnits;
 
+
     private void OnEnable()
     {
         m_ignoreRaycastMask = ~m_ignoreRaycastMask;
