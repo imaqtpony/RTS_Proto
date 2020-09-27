@@ -9,7 +9,8 @@ public class TileManager : MonoBehaviour
     private int m_nbTiles;
     private int m_length;
 
-    public Tile[] m_tileArray;
+    [SerializeField]
+    private ArrayData m_data;
 
     [SerializeField]
     private GameObject m_sampleTile;
@@ -28,7 +29,7 @@ public class TileManager : MonoBehaviour
         m_nbTiles = 100;
         m_length = (int)Mathf.Sqrt(m_nbTiles);
 
-        m_tileArray = new Tile[m_nbTiles];
+        m_data.m_tileArray = new Tile[m_nbTiles];
 
         InitializeTiles();
 
@@ -111,9 +112,9 @@ public class TileManager : MonoBehaviour
                 //Debug.Log(transform.position + new Vector3(tile_spacing * j, 0, tile_spacing * i));
                 GameObject go = Instantiate(m_sampleTile, transform.position + new Vector3(tile_spacing * j, 0, -tile_spacing * i), Quaternion.identity);
                 go.name = $"{i}{j}";
-                m_tileArray[i * 10 + j].pos = go.transform.position;
-                m_tileArray[i * 10 + j].go = go;
-                m_tileArray[i * 10 + j].isEmpty = true;
+                m_data.m_tileArray[i * 10 + j].pos = go.transform.position;
+                m_data.m_tileArray[i * 10 + j].go = go;
+                m_data.m_tileArray[i * 10 + j].isEmpty = true;
 
             }
         }
@@ -137,8 +138,8 @@ public class TileManager : MonoBehaviour
             {
                 int tempIndex = i * 10 + j;
 
-                if (m_tileArray[tempIndex].pos == p_pos)
-                    tileNb = m_tileArray[tempIndex];
+                if (m_data.m_tileArray[tempIndex].pos == p_pos)
+                    tileNb = m_data.m_tileArray[tempIndex];
                     
 
             }
@@ -158,7 +159,7 @@ public class TileManager : MonoBehaviour
         if (p_index >= 0 && p_index < m_nbTiles)
         {
 
-            return m_tileArray[p_index];
+            return m_data.m_tileArray[p_index];
 
         }
         else

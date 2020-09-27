@@ -443,6 +443,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4614274168121628662, guid: a112b785597307c4d86077cf29af1ef6, type: 3}
+      propertyPath: health
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614274168121628662, guid: a112b785597307c4d86077cf29af1ef6, type: 3}
+      propertyPath: meleeAttack
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614274168121628662, guid: a112b785597307c4d86077cf29af1ef6, type: 3}
+      propertyPath: durability
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a112b785597307c4d86077cf29af1ef6, type: 3}
 --- !u!23 &1203731610 stripped
@@ -480,6 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52ac686746e446e49abeecb32f114b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_data: {fileID: 11400000, guid: 6b06b35b58beaa04cbe2899df90c0d49, type: 2}
   m_sampleTile: {fileID: 1747011453432641108, guid: 7844528fe63d4124d851e689e91528a1, type: 3}
   m_onFetchTileEvnt: {fileID: 11400000, guid: 7f14a8aba4128f54580281f1380a31d3, type: 2}
   m_onReturnTile: {fileID: 11400000, guid: b2ec06e1f8e669942927a23796479bc1, type: 2}
@@ -510,6 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a9e0276938f4e344a11829ccab90660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_data: {fileID: 11400000, guid: 6b06b35b58beaa04cbe2899df90c0d49, type: 2}
 --- !u!1001 &1443798910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -614,6 +628,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3865252756172055175, guid: b41c9c5786006604db774b1437afe43c, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865252756172055175, guid: b41c9c5786006604db774b1437afe43c, type: 3}
+      propertyPath: meleeAttack
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7441004259573276826, guid: b41c9c5786006604db774b1437afe43c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.0814652
@@ -846,6 +868,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Unit_Template
       objectReference: {fileID: 0}
+    - target: {fileID: 4614274168121628662, guid: a112b785597307c4d86077cf29af1ef6, type: 3}
+      propertyPath: health
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614274168121628662, guid: a112b785597307c4d86077cf29af1ef6, type: 3}
+      propertyPath: meleeAttack
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614274168121628662, guid: a112b785597307c4d86077cf29af1ef6, type: 3}
+      propertyPath: durability
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614274168121628662, guid: a112b785597307c4d86077cf29af1ef6, type: 3}
+      propertyPath: range
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614274168121628662, guid: a112b785597307c4d86077cf29af1ef6, type: 3}
+      propertyPath: rangedAttack
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a112b785597307c4d86077cf29af1ef6, type: 3}
 --- !u!1001 &6153823922744942231
@@ -855,6 +897,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3865252756172055175, guid: b41c9c5786006604db774b1437afe43c, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865252756172055175, guid: b41c9c5786006604db774b1437afe43c, type: 3}
+      propertyPath: meleeAttack
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7441004259573276826, guid: b41c9c5786006604db774b1437afe43c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.0814652

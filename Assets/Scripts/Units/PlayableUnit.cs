@@ -39,6 +39,8 @@ public class PlayableUnit : SetTiles
     [Tooltip("The number of tiles this go has to move vertically")]
     private int m_nbT2MoveVertical;
 
+    [SerializeField]
+    [Tooltip("This unit's speed")]
     private float m_speed;
 
     private bool m_isMoving;
@@ -52,6 +54,8 @@ public class PlayableUnit : SetTiles
     [SerializeField]
     private Shader m_shaderEmpty;
 
+    private UnitStats m_unitStats;
+
 
     private void OnEnable()
     {
@@ -60,7 +64,7 @@ public class PlayableUnit : SetTiles
         m_nbT2MoveVertical = 0;
         m_nbT2MoveHorizontal = 0;
 
-        m_speed = 5f;
+        m_unitStats = GetComponent<UnitStats>();
 
 
         if (m_onMoveUnit != null)
@@ -141,6 +145,7 @@ public class PlayableUnit : SetTiles
                 //reset current Tile before changing
                 m_currentTile.isEmpty = true;
                 m_currentTile = p_tile;
+                m_unitStats.currentTileIndex = CalculateTileIndex(m_currentTile.go.name);
                 m_currentTile.isEmpty = false;
 
             }
